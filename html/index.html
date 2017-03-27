@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+      <meta charset="utf-8">
+      <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+      <meta content="yes" name="apple-mobile-web-app-capable">
+      <meta content="black" name="apple-mobile-web-app-status-bar-style">
+      <meta content="telephone=no" name="format-detection">
+      <meta content="email=no" name="format-detection">
+      <title>标题</title>
+      <link rel="shortcut icon" href="/favicon.ico">
+      <style>
+        ul,li {
+          margin:0;
+          padding:0;
+        }
+        body{
+          font:14px/1.5 Arial;
+          color:#666;
+        }
+        #box{
+          position:relative;
+          width:600px;
+          height:400px;
+          border:2px solid #000;
+          margin:10px auto;
+          overflow:hidden;
+        }
+        #box ul{
+          list-style-position: inside;
+          margin: 10px;
+        }
+        #left,#right{
+          color: #FFF;
+          width: 300px;
+          height: 400px;
+          overflow: hidden;
+        }
+        #left{
+          background: green; 
+          float: left;
+        }
+        #right{
+          background: skyblue;
+          float: right;
+        }
+        #line{
+          position: absolute;
+          top: 0;
+          left: 50%;
+          height: 100%;
+          width: 4px;
+          overflow: hidden;
+          background: red;
+          cursor: w-resize;
+        }
+      </style>
+    </head>
+    <body>
+        <div id="box">
+            <div id="left">
+              <ul>
+                <li><a href="#" target="_blank">测试拖拉效果</a></li>
+                <li><a href="#" target="_blank">测试拖拉效果</a></li>
+                <li><a href="#" target="_blank">测试拖拉效果</a></li>
+                <li><a href="#" target="_blank">测试拖拉效果</a></li>
+                <li><a href="#" target="_blank">测试拖拉效果</a></li>
+                <li><a href="#" target="_blank">测试拖拉效果</a></li>
+                <li><a href="#" target="_blank">测试拖拉效果</a></li>
+                <li><a href="#" target="_blank">测试拖拉效果</a></li>
+                <li><a href="#" target="_blank">测试拖拉效果</a></li>
+                <li><a href="#" target="_blank">测试拖拉效果</a></li>
+              </ul>
+            </div>
+            <div id="right">
+              <ul>
+                <li><a href="#" target="_blank">测试拖拉效果2222</a></li>
+                <li><a href="#" target="_blank">测试拖拉效果2222</a></li>
+                <li><a href="#" target="_blank">测试拖拉效果2222</a></li>
+                <li><a href="#" target="_blank">测试拖拉效果2222</a></li>
+                <li><a href="#" target="_blank">测试拖拉效果2222</a></li>
+                <li><a href="#" target="_blank">测试拖拉效果2222</a></li>
+                <li><a href="#" target="_blank">测试拖拉效果2222</a></li>
+                <li><a href="#" target="_blank">测试拖拉效果2222</a></li>
+                <li><a href="#" target="_blank">测试拖拉效果2222</a></li>
+                <li><a href="#" target="_blank">测试拖拉效果2222</a></li>
+              </ul>
+            </div>
+            <div id="line"></div>
+        </div>
+    </body>
+</html>
